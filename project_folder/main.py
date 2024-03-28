@@ -9,6 +9,7 @@ from handlers import command_start_handler, echo_handler
 from loader import dp
 from loader import TOKEN
 
+
 async def main() -> None:
     dp.message.register(command_start_handler)
     dp.message.register(echo_handler)
